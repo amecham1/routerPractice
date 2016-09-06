@@ -1,0 +1,27 @@
+
+.joke-box{
+width:75%;
+height: 70vh;
+background-color: papayawhip;
+color: peru;
+position: relative;
+top: 40px;
+left: 12%;
+overflow: scroll;
+
+}
+
+.chuck-title{
+  text-align: center;
+  font-size: 70px;
+  font-weight: 400;
+  color:darkgray;
+  margin-top: 100px;
+  /*padding-top: 10px;*/
+  /*padding-bottom: 30px;*/
+}
+
+.chuck-list{
+  padding-left: 25px;
+  padding-right: 20px;
+}

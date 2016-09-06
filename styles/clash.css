@@ -1,18 +1,19 @@
-.starwars-title{
+.clash-title{
 font-size: 70px;
-margin-top: 90px;
+margin-top: 120px;
 text-align: center;
 color: darkgray;
 }
 
-.info-box{
+.clash-box{
   width: 30%;
   float: left;
   margin-top: 50px;
-  margin-left: 32px;
+  margin-left: 175px;
 }
-.info-box ul li {
+.clash-box ul li {
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .title{
@@ -21,23 +22,16 @@ color: darkgray;
   padding-top: 10px;
 }
 
-.spaceships{
+.cards-box{
   height: 50vh;
   background-color: peru;
   color: black;
   overflow: auto;
 }
 
-.people{
+.arena-box{
   height: 50vh;
   background-color: darkgray;
-  color: black;
-  overflow: auto;
-}
-
-.planets{
-  height: 50vh;
-  background-color: papayawhip;
   color: black;
   overflow: auto;
 }

@@ -162,7 +162,6 @@ starService.getPlanets()
   }
 
 })
-console.log(planetData);
 
 $scope.earths=planetData;
 

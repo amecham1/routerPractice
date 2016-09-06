@@ -114,7 +114,6 @@ this.getPlanets = function(){
     method:"GET",
     url:"http://swapi.co/api/planets/?page=2"
   }).then(function(data){
-    console.log(data.data.results);
     deffered.resolve(data.data.results);
   })
   return deffered.promise
