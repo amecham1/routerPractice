@@ -1,0 +1,31 @@
+
+.nav-header{
+  width: 100%;
+  position: fixed;
+  top:1px;
+}
+
+.nav-info{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.nav-info li{
+  color: peru;
+  font-size: 30px;
+  font-weight: 200;
+  padding-right: 40px;
+
+}
+.links:hover{
+  color:darkgray;
+}
+
+.footer-section{
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}

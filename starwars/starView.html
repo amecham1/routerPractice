@@ -1,0 +1,55 @@
+<h1 class=starwars-title>Star Wars</h1>
+
+<div class="spaceships info-box" >
+  <h1 class='title'>Spaceships</h1>
+<ul ng-repeat='ship in ships'>
+  <br>
+  <br>
+  <li>Name: {{ship.Name}}</li>
+  <br>
+  <li>Model: {{ship.Model}}</li>
+  <br>
+  <li>Manufacturer: {{ship.Manufacturer}}</li>
+  <br>
+  <li>Class: {{ship.Class}}</li>
+  <br>
+  <li>Hyperdrive: {{ship.Hyperdrive}}</li>
+  <br>
+  <br>
+</ul>
+</div>
+
+<div class="people info-box">
+  <h1 class='title'>People</h1>
+<ul ng-repeat='person in persons'>
+  <br>
+  <br>
+  <li>Name: {{person.Name}}</li>
+  <br>
+  <li>Mass: {{person.Mass}}</li>
+  <br>
+  <li>Height: {{person.Height}}</li>
+  <br>
+  <li>Born: {{person.Born}}</li>
+  <br>
+  <br>
+</ul>
+</div>
+
+
+<div class="planets info-box">
+  <h1 class='title'>Planets</h1>
+<ul ng-repeat='earth in earths'>
+  <br>
+  <br>
+  <li>Name: {{earth.Name}}</li>
+  <br>
+  <li>Terrian: {{earth.Terrain}}</li>
+  <br>
+  <li>Climate: {{earth.Climate}}</li>
+  <br>
+  <li>Diameter: {{earth.Diameter}}</li>
+  <br>
+  <br>
+</ul>
+</div>
